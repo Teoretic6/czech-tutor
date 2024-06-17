@@ -4,7 +4,7 @@ name: learn-github-actions
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 * * * *"
+    - cron: "39 * * * *"
 
 jobs:
   test:
