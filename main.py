@@ -58,7 +58,9 @@ if __name__ == '__main__':
         
         "Example of a lesson is:"
         "1. Czech word (Translation): Sentence. (Translation to English)"
+        "\n\n"
         "2. Czech word (Translation): Sentence. (Translation to English)"
+        "\n\n"
         "etc."
     )
 
@@ -76,7 +78,7 @@ if __name__ == '__main__':
                 "content": prompt,
             }
         ],
-        model="anthropic/claude-3-haiku",
+        model="openai/gpt-4o-mini",
         n=1,
         temperature=0.5
     )
